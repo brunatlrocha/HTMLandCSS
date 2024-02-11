@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Kumbh Sans';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px;
+    justify-content: space-between;
+}
+
+main {
+    margin: 20px;
+}
+
+html {
+    background: linear-gradient(#FFFFFF 65%,#212529 35%)
+}
+
+.logos {
+    justify-content: end;
+}
+
+
+#title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1C1F2C;
+}
+
+#description {
+    font-size: 9px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #212529;
+}
+
+.about-container {
+    background-color: #f8f8f8;
+    align-items: center;    
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#nameRegister {
+    font-size: 10px;
+    font-weight: 300;
+    color: #1C1F2C;
+    padding: 10px 10px 5px 0px;
+}
+
+#emailRegister, #selectPlan {
+    font-size: 10px;
+    font-weight: 300;
+    color: #1C1F2C;
+    padding: 10px 10px 5px 0px;
+}
+
+.about-container input {
+    align-items: center;
+    color: #F8F8F8;
+    width: 97%;
+}
+
+#getStarted {
+    text-align: center;
+}
+
+#button1 {
+    background-color: #5175FF; 
+    color: #FFFFFF;            
+    border: none;     
+    border-radius: 20px;     
+    cursor: pointer; 
+    font-size: 9px;
+    padding: 13px 90px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#plan {         
+    font-size: 10px;
+    font-weight: 300;
+    color: #1C1F2C;
+    padding: 5px;
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+
+    #button1 {
+        border-radius: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    header {
+        margin: 90px 90px 0px 90px;
+    }
+
+    main {
+        margin: 70px 90px 90px 90px;
+    }
+
+    #description {
+        font-size: 13.5px;
+        margin-top: 20px;
+    }
+
+    #selectPlan, #emailaddress, #name {
+        font-size: 13.5px;
+    }
+
+    .about-container input {
+        width: 98.5%;
+    }
+
+    #plan {
+        width: 100%;
+    }
+
+    #button1 {
+        border-radius: 30px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    html {
+        background: linear-gradient(to right, #FFFFFF 70%, #212529 30%);
+    }
+
+    main {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #logo img {
+        width: 170px;
+        height: 35px;
+    }
+    #title {
+        font-size: 50px;
+    }
+
+    #description {
+        font-size: 20px;
+    }
+
+    .container {
+        margin-top: 110px;
+    }
+
+    .about-container {
+        width: 850px;
+        height: auto;
+        margin: 0px 10px 10px 150px;
+        padding: 50px 50px 70px 50px;
+    }
+    #nameRegister {
+        font-size: 15px;
+    }
+    
+    #emailRegister, #selectPlan {
+        font-size: 15px;
+    }
+
+    #plan {         
+        font-size: 15px;
+        padding: 10px 10px 5px 0px;
+        width: 100%;
+    }
+
+    #button1 {
+        font-size: 15px;
+        padding: 17px 95px;
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+
+    .about-container input {
+        padding: 10px 10px 5px 0px;
+        width: 96%;
+    }
+}
+
+
